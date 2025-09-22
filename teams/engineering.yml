@@ -1,6 +1,7 @@
 name: Engineering
 policies:
   - path: ../lib/windows/policies/windows-device-health.policies.yml
+  - path: ../lib/windows/policies/all-windows-updates-installed.policies.yml
   - path: ../lib/macos/policies/macos-device-health.policies.yml
   - path: ../lib/macos/policies/dns-resolvers.policies.yml
 queries:
@@ -32,4 +33,5 @@ team_settings:
       destination_url: https://webhook.site/ffc87c37-9fe7-4272-b416-9407aa466df0
       host_batch_size: 0
       policy_ids:
+        - 230
 software:
