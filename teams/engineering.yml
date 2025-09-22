@@ -1,4 +1,4 @@
-name: Workstations
+name: Engineering
 policies:
   - path: ../lib/macos/policies/macos-device-health.policies.yml
 queries:
