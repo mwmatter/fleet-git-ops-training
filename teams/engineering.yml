@@ -3,8 +3,6 @@ policies:
   - path: ../lib/windows/policies/windows-device-health.policies.yml
   - path: ../lib/macos/policies/macos-device-health.policies.yml
   - path: ../lib/macos/policies/dns-resolvers.policies.yml
-    run_script:
-      path: ../scripts/set-dns-cloudflare.sh
 queries:
   - path: ../lib/all/queries/collect-failed-login-attempts.queries.yml
 agent_options:
